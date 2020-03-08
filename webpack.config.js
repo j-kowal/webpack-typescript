@@ -81,6 +81,9 @@ module.exports = (env, args) => ({
             }
         ]
     },
+    resolve: {
+        extensions: [ '.ts', '.js' ],
+    },
     plugins: [
         new MiniCssExtractPlugin({
             filename: "css/style.css",
